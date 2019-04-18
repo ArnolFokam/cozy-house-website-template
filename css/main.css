@@ -136,7 +136,7 @@ header#header {
     right: 10px;
     background: transparent;
     cursor: pointer;
-    display: none;
+    display: none; 
     padding: 10px; 
 }
 
