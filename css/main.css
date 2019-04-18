@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #292929;
+}
+
+ul{
+    list-style: none;
+}
+
+a, input, button{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+a,input[type="submit"],button {
+    cursor: pointer;
+}
+
+a, a:active, a:hover{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex{
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.row{
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    box-orient: horizontal;
+    flex-direction: row;
+}
+
+/*Navigation*/
+
+header#header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    height: auto;
+    max-height: 150px;
+    padding: 2em 0 2em;
+    color: white;
+}
+
+#navbar.row {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.nav-brand > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: #edd1ad;
+}
+
+.nav_menu ul li {
+    display: inline-block;
+    padding: 0 1em;
+    cursor: pointer;
+}
+
+.nav_menu ul li a{
+    position: relative;
+    color: #cdcdcd;
+    transition: all 0.3s linear;
+}
+
+.nav_menu ul li:hover a {
+    color: white;
+}
+
+.nav_menu ul li a[class="active"] {
+    color: white;
+}
+
+.nav_menu ul li a[class="active"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #edd1ad;
+    bottom: -0.375em;
+    border-radius: 3px;
+}
+
+/*Mobile Navigation*/
+#mobile-toggle-btn{
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    background: transparent;
+    cursor: pointer;
+    display: none;
+    padding: 10px;
+}
+
+#mobile-toggle{
+    display: none;
+}
+
+#mobile-toggle:checked ~ nav ul {
+    top: 100px;
+    opacity: 1;
+}
+
+/*Banner*/
+#banner{
+    width: 100%;
+    min-height: 75vh;
+    background-image: url('../images/Dog.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9.375em 0;
+}
+
+#banner > .container {
+    align-self: center;
+}
+
+#banner > .container > div {
+    max-width: 400px;
+}
+
+#banner > .container > div *:not(:last-child){
+    padding-bottom: 2rem;
+}
+
+#banner > .container > div > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.75em;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#banner > .container > div > p {
+    color: #cdcdcd;
+    line-height: 1.5em;
+}
+
+#banner > .container > div > button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: #edd1ad;
+    color: #292929;
+    padding: 1em 2em;
+    border-radius: 3.125em;
+}
+
+
+/*Responsiveness*/
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+
+    /*Navigation*/
+    .nav_menu ul li{
+        padding: 0 0.625em;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 768px){
+
+    header#header{
+        padding: 1em 0;
+    }
+
+    #banner{
+        background-image: linear-gradient(146deg, #544532 , #333);
+    }
+
+     /*Mobile Navigation*/
+     .nav_menu ul{
+        position: absolute;
+        top: -300px;
+        left: 0;
+        right: 0;
+        transition: all 0.6s ease-in-out;
+        background-color: white;
+        opacity: 0;
+    }
+
+
+    .nav_menu ul li {
+        position: relative;
+        text-align: center;
+        padding: 1rem;
+        display: block
+    }
+
+    .nav_menu ul li:not(:first-child)::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        content: "";
+        height: 2px;
+        background-color: #333;
+    }
+
+    .nav_menu ul li a{
+        color: #292929;
+    }
+
+    .nav_menu ul li:hover a {
+        color: #eac99f;
+    }
+
+    .nav_menu ul li a[class="active"] {
+        color: #292929;
+    }
+
+    #mobile-toggle-btn{
+        display: block;
+    }
+
+    
+}
