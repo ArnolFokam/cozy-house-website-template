@@ -137,7 +137,7 @@ header#header {
     background: transparent;
     cursor: pointer;
     display: none;
-    padding: 10px;
+    padding: 10px; 
 }
 
 #mobile-toggle{
