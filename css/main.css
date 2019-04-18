@@ -153,6 +153,7 @@ header#header {
 #banner{
     width: 100%;
     min-height: 75vh;
+    background-image: #292929;
     background-image: url('../images/Dog.png');
     background-size: cover;
     background-repeat: no-repeat;
