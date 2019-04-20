@@ -239,7 +239,7 @@ section#about .row > div {
 
 .image_container img {
     max-width: 100%;
-    height: auto;
+    height: auto; 
 }
 
 .image_container ~ div{
