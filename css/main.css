@@ -60,6 +60,39 @@ a, a:active, a:hover{
     display: flex;
     box-orient: horizontal;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.justify-content-center, .flex.justify-content-center {
+    justify-content: center;
+} 
+
+/*dimensions*/
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*grid*/
+@media screen and (min-width: 576px){
+    
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    .col-lg-5{
+        max-width: 41.667%;
+        -ms-flex: 0 0 41.667%;
+        flex: 0 0 41.667%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
 }
 
 /*Navigation*/
@@ -193,6 +226,64 @@ header#header {
     padding: 1em 2em;
     border-radius: 3.125em;
 }
+
+/*About section*/
+
+section#about .row > div {
+    padding-top: 20px;
+}
+
+.image_container {
+    text-align: center
+}
+
+.image_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image_container ~ div{
+    margin-left: 30px;
+}
+
+div.about_text {
+    text-align: left;
+    color: #333;
+}
+
+div.about_text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+div.about_text p {
+    margin-top: 30px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Responsiveness*/
