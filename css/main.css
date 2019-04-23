@@ -257,7 +257,7 @@ header#header {
     line-height: 1.5em;
 }
 
-#banner > .container > div > button {
+#banner > .container > div > a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     background-color: #edd1ad;
@@ -290,7 +290,7 @@ div.about_text {
     color: #333;
 }
 
-div.about_text h1{
+div.about_text h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.2;
     font-size: 2.5em;
