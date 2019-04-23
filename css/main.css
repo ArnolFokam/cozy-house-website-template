@@ -165,12 +165,9 @@ header#header {
 /*Mobile Navigation*/
 #mobile-toggle-btn{
     position: absolute;
-    font-size: 30px;
     right: 10px;
-    background: transparent;
     cursor: pointer;
     display: none; 
-    padding: 10px;
 }
 
 #mobile-toggle{
@@ -180,6 +177,48 @@ header#header {
 #mobile-toggle:checked ~ nav ul {
     top: 100px;
     opacity: 1;
+}
+
+.hamburger{
+    box-sizing: content-box;
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+.hamburger span {
+    position: absolute;
+    transform: translateY(-50%);
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transform-origin: center;
+    transition: all 0.2s linear;
+}
+
+.hamburger span:nth-child(1){
+    top: 10%;
+}
+
+.hamburger span:nth-child(2){
+    top: 50%;
+}
+
+.hamburger span:nth-child(3){
+    top: 90%;
+}
+
+#mobile-toggle:checked ~ .hamburger span{
+    top: 50%;
+}
+
+#mobile-toggle:checked ~ .hamburger span:nth-child(1){
+    transform: rotate(45deg);
+}
+
+#mobile-toggle:checked ~ .hamburger span:nth-child(2), #mobile-toggle:checked ~ .hamburger span:nth-child(3){
+    transform: rotate(-45deg);
 }
 
 /*Banner*/
