@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<g>
+		<path d="M256,0C114.841,0,0,114.841,0,256s114.841,256,256,256s256-114.841,256-256S397.16,0,256,0z M256,493.289    C125.158,493.289,18.711,386.842,18.711,256S125.158,18.711,256,18.711S493.288,125.158,493.288,256S386.842,493.289,256,493.289z    " data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M256,43.823C138.996,43.823,43.806,139.006,43.806,256S138.997,468.177,256,468.177    c116.994,0,212.177-95.183,212.177-212.177S372.994,43.823,256,43.823z M265.35,449.237v-30.744c0-5.167-4.188-9.355-9.355-9.355    c-5.168,0-9.355,4.189-9.355,9.355v30.744c-99.255-4.751-179.143-84.632-183.893-183.879h30.757c5.168,0,9.355-4.189,9.355-9.355    c0-5.167-4.188-9.355-9.355-9.355H62.746c4.749-99.248,84.636-179.13,183.893-183.883v30.747c0,5.167,4.187,9.355,9.355,9.355    c5.168,0,9.355-4.189,9.355-9.355V62.763c99.253,4.746,179.139,84.631,183.886,183.883h-30.752c-5.168,0-9.355,4.189-9.355,9.355    c0,5.167,4.187,9.355,9.355,9.355h30.752C444.487,364.607,364.601,444.49,265.35,449.237z" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M308.852,246.646H265.35v-75.372c0-5.167-4.187-9.355-9.355-9.355c-5.168,0-9.355,4.189-9.355,9.355v84.727    c0,5.167,4.187,9.355,9.355,9.355h52.857c5.168,0,9.355-4.189,9.355-9.355C318.207,250.835,314.018,246.646,308.852,246.646z" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="396.717" cy="337.254" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="396.717" cy="174.758" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="337.242" cy="115.283" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="174.746" cy="115.283" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="115.27" cy="174.758" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="115.27" cy="337.254" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="174.746" cy="396.729" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="337.242" cy="396.729" r="9.355" data-original="#000000" class="active-path" data-old_color="#f1cdb3" fill="#f1cdb3"/>
+	</g>
+</g></g> </svg>
